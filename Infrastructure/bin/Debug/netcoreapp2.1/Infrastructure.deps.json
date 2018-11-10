@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "26119f3cc229a08e5833838b413c2d26bca0c667"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "SimpleInjector": "4.3.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        }
+      },
+      "SimpleInjector/4.3.0": {
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SimpleInjector.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime/4.1.0": {},
+      "Domain/1.0.0": {
+        "dependencies": {
+          "SimpleInjector": "4.3.0"
+        },
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleInjector/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qA2sd1Rdt7x0OneTsg6iNoNt9utTTqaxcUzANMYocWchzI2JDGL0iRMD+ek7WjC89UxiTK8u2Zm5fswR8tyhhA==",
+      "path": "simpleinjector/4.3.0",
+      "hashPath": "simpleinjector.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "path": "system.componentmodel/4.0.1",
+      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
+      "path": "system.runtime/4.1.0",
+      "hashPath": "system.runtime.4.1.0.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
